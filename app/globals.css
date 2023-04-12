@@ -53,7 +53,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 /* Variables */
-#root {
+:root {
   --color-primary: #8A90C2;
   --color-grey-primary: #F5F5F5;
   --color-grey-secondary: #E9E9E9;
