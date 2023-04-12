@@ -40,6 +40,7 @@ export const Button = ({
                 <Image
                     src={icon.src}
                     alt={icon.alt}
+                    width={12}
                     height={12}
                 />
             }

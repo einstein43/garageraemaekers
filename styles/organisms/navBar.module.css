@@ -1,0 +1,40 @@
+#container {
+    padding: 15px var(--page-padding-sides);
+    display: grid;
+    grid-template-columns: min-content auto min-content;
+    align-items: center;
+    justify-items: center;
+}
+
+/* Logo */
+#logoWrap {
+    width: 150px;
+}
+
+/* Links */
+#linkContainer {
+    display: inline-grid;
+    grid-template-columns: repeat(4, min-content);
+    column-gap: 2em;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .5;
+    list-style-type: none;
+    transition: opacity .2s ease;
+}
+
+.link:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Buttons */
+#buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 6px;
+}
+
