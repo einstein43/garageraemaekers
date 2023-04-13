@@ -2,6 +2,10 @@ import { Inter } from 'next/font/google'
 import styles from './page.module.css'
 import { Banner } from '@/components/molecules/banner.component'
 import { Footer } from '@/components/organisms/footer.component'
+import Service from '@/components/organisms/service.organism'
+import Reviews from '@/components/organisms/reviews.organism'
+import Location from '@/components/organisms/location.organism'
+import { NavBar } from '@/components/organisms/navBar.component'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -9,6 +13,9 @@ export default function Home() {
     <>
       <main id={styles.main}>
         <Banner/>
+        <Service/>
+        <Reviews/>
+        <Location/>
       </main>
       <Footer/>
     </>

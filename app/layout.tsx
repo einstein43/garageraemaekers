@@ -1,4 +1,5 @@
- import './globals.css'
+ import { NavBar } from '@/components/organisms/navBar.component'
+import './globals.css'
 import { Montserrat } from 'next/font/google'
 
 export const metadata = {
@@ -18,8 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={montserrat.className}>
       <body>
-         
-        {children}</body>
+        <NavBar/>
+        {children}
+      </body>
     </html>
   )
 }
