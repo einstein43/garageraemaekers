@@ -6,7 +6,7 @@ import Reviews from '@/components/organisms/reviews.organism'
  
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main id={styles.main}>
        <Reviews></Reviews>
     
       
