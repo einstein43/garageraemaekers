@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <>
       <main id={styles.main}>
-        <Banner/>
+        {/* <Banner/> */}
         {/* <Service/> */}
         <Reviews/>
-        {/* <Location/> */}
+        <Location/>
       </main>
       <Footer/>
     </>
