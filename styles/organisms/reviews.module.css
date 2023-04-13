@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: var(--color-grey-primary);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.leftside_text {
+    color: var(--color-grey-tertiery);
+    font-size: 56px;
+   line-height: 50px;
+  font-weight: 600;
+}
+ #blacktext {
+    color: black;
+ }
+
