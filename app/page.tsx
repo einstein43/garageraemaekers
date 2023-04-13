@@ -1,15 +1,23 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-import Service from '../components/organisms/service.organism'
-import Reviews from '../components/organisms/reviews.organism'
+import { Banner } from '@/components/molecules/banner.component'
+import { Footer } from '@/components/organisms/footer.component'
+import Service from '@/components/organisms/service.organism'
+import Reviews from '@/components/organisms/reviews.organism'
 import Location from '@/components/organisms/location.organism'
-import Pictures from '@/components/organisms/pictures.organism'
- 
+import { NavBar } from '@/components/organisms/navBar.component'
+const inter = Inter({ subsets: ['latin'] })
+
 export default function Home() {
   return (
-    <main id={styles.main}>
-       <Pictures></Pictures>
-    </main>
+    <>
+      <main id={styles.main}>
+        <Banner/>
+        <Service/>
+        <Reviews/>
+        <Location/>
+      </main>
+      <Footer/>
+    </>
   )
 }
