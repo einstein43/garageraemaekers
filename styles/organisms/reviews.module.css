@@ -1,15 +1,41 @@
 .wrapper {
-    background-color: var(--color-grey-primary);
-    display: grid;
-    grid-template-columns: auto auto;
+  background-color: var(--color-grey-primary);
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: var(--section-padding-sides);
 }
 .leftside_text {
-    color: var(--color-grey-tertiery);
-    font-size: 56px;
-   line-height: 50px;
+  margin-top: 100px;
+  grid-area: 1/1;
+  color: var(--color-grey-tertiery);
+  font-size: 56px;
+  line-height: 50px;
   font-weight: 600;
 }
- #blacktext {
-    color: black;
- }
+#blacktext {
+  color: black;
+}
 
+#fotootje {
+  height: 375px;
+  width: 500px;
+}
+.fotodiv {
+  grid-area: 1/2;
+}
+#sterretjes {
+    position: relative;
+ margin-top: 30px;
+  grid-area: 1/1;
+  height: 40px;
+  width: 200px;
+  
+}
+ 
+#buttontje {
+  width: 260px;
+  height: 50px;
+  padding: 0px;
+  font-size: 16px;
+  
+}
