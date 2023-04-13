@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: var(--color-grey-primary);
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: var(--section-padding-sides);
+}
+.image_div {
+    padding-top: 50px;
+    width: 600px;
+}
+.leftside_text {
+  margin-top: 50px;
+  grid-area: 1/1;
+  color: var(--color-grey-tertiery);
+  font-size: 56px;
+  line-height: 50px;
+  font-weight: 600;
+  width: 690px;
+}
+#blacktext {
+  color: black;
+}
+
+#bellen {
+  grid-area: 2/1;
+  color: white;
+  width: 175px;
+}
+#route {
+  grid-area: 2/1;
+  margin-left: 185px;
+  width: 175px;
+}
