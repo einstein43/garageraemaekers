@@ -2,17 +2,16 @@
   background-color: var(--color-grey-primary);
   display: grid;
   grid-template-columns: auto auto auto;
-padding: var(--section-padding-sides);
+  padding: var(--section-padding-sides);
   /* padding-left: 70px;
   padding-right: 70px;
   padding-top: 40px;
   padding-bottom: 50px; */
   border-radius: var(--border-radius);
-  
 }
 .service {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   background-color: var(--color-grey-secondary);
   color: black;
   padding-top: 20px;
@@ -26,17 +25,17 @@ padding: var(--section-padding-sides);
 }
 #leftside_text {
   height: 500px;
-padding-right: 50px;
+  padding-right: 50px;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 4;
   font-size: 56px;
-   line-height: 50px;
+  line-height: 50px;
   font-weight: 600;
   color: var(--color-grey-tertiery);
   background-color: var(--color-grey-primary);
- 
+margin-bottom: 50px;
   overflow: hidden;
 }
 #blacktext {
@@ -57,7 +56,6 @@ padding-right: 50px;
 }
 #vak5 {
   grid-area: 3/2;
-
 }
 #vak6 {
   grid-area: 3/3;
@@ -65,22 +63,20 @@ padding-right: 50px;
 #button {
   padding-left: var(--section-padding-sides);
   grid-area: 3/1;
-  padding-top: px;
+  align-self: flex-end;
   padding-left: 0px;
-  
 }
 .kopje {
-    font-size: 22px;
-    font-weight: bold;
-    grid-area: 1/2;
-    
+  font-size: 22px;
+  font-weight: bold;
+  grid-area: 1/2;
 }
 
 .kopje_text {
-    font-size: 16px;
-    grid-column-start:1 ;
-    grid-column-end:3;    
+  font-size: 16px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 .plaatje {
-    grid-area: 1/1;
+  grid-area: 1/1;
 }

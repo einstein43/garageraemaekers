@@ -6,6 +6,7 @@ import Service from '@/components/organisms/service.organism'
 import Reviews from '@/components/organisms/reviews.organism'
 import Location from '@/components/organisms/location.organism'
 import { NavBar } from '@/components/organisms/navBar.component'
+import Pictures from '@/components/organisms/pictures.organism'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main id={styles.main}>
         <Banner/>
         <Service/>
+        <Pictures/> 
         <Reviews/>
         <Location/>
       </main>
