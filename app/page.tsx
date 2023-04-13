@@ -14,10 +14,9 @@ export default function Home() {
     <>
       <main id={styles.main}>
         <Banner/>
-        <Service/>
-        <Pictures/> 
+        {/* <Service/> */}
         <Reviews/>
-        <Location/>
+        {/* <Location/> */}
       </main>
       <Footer/>
     </>
