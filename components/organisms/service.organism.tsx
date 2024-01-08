@@ -19,7 +19,7 @@ export default function Service() {
       <div id={styles.header}>
         {/* Title */}
         <div id={styles.leftside_text}>
-          <p>
+          <p id={styles.text_links}>
             Met <span id={styles.blacktext}>25 jaar</span> ervaring bieden wij de volgende <span id={styles.blacktext}>diensten</span> voor luxewagens,
             lichte bedrijfswagens en vrachtwagens.
           </p>

@@ -1,7 +1,7 @@
 .wrapper {
   background-color: var(--color-grey-primary);
   display: grid;
-  column-gap: clamp(25px, 3vw, 50px);
+  column-gap: clamp(20px, 3vw, 50px);
   grid-template-columns: 2fr 3fr;
   padding: var(--section-padding-sides);
   border-radius: var(--border-radius);
@@ -27,8 +27,7 @@
   display: grid;
   grid-template-rows: repeat(2, min-content);
   align-self: center;
-  row-gap: 25px;
-}
+ }
 
 .service {
   display: grid;
@@ -45,19 +44,23 @@
 }
 
 #leftside_text {
-  font-size: clamp(20px, 4vw, 56px);
+   font-size: clamp(20px, 4vw, 56px);
   line-height: 1em;
   font-weight: 600;
   color: var(--color-grey-tertiery);
   background-color: var(--color-grey-primary);
-
-  overflow: hidden;
-}
-
+   overflow: hidden;
+ }
+ 
 #blacktext {
   color: var(--color-primary);
 }
+#text_links {
+  margin-bottom: 10px;
+}
 
+
+ 
 /* Blocks grid */
 #blocksGrid {
   display: grid;
