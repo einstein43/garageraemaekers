@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import styles from "../../styles/organisms/location.module.css";
@@ -11,6 +13,17 @@ import location from "../../public/location.svg"
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Location() {
+
+
+  function handleCallClick() {
+    window.location.href = 'tel:061234567';
+}
+
+function handleRouteClick() {
+  window.open('https://goo.gl/maps/pgG1u7PspoTZ7Nc19', '_blank');
+}
+
+
   return (
     <div className={styles.wrapper}>
 
@@ -24,8 +37,8 @@ export default function Location() {
 
       {/* Buttons */}
       <div id={styles.buttonContainer}>
-        <Button id={styles.bellen} theme="primary" size={"large"} icon={{ src: Phone, alt: "phone" }}>Bellen</Button>
-        <Button id={styles.route} theme="secondary" size={"large"} icon={{ src: location, alt: "location" }}>Route</Button>
+        <Button id={styles.bellen} onClick={() => handleCallClick()} theme="primary" size={"large"} icon={{ src: Phone, alt: "phone" }}>Bellen</Button>
+        <Button id={styles.route} onClick={() => handleRouteClick()} theme="secondary" size={"large"} icon={{ src: location, alt: "location" }}>Route</Button>
       </div>
     </div>
   );

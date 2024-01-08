@@ -43,7 +43,7 @@ export const Footer = () => {
                 <div className={styles.section}>
                     <p className={styles.title}>Garage Raemaekers</p>
                     <ul className={styles.ul}>
-                        <li className={styles.li}><a href='https://goo.gl/maps/pgG1u7PspoTZ7Nc19' target='_blank'>Visdijk 9<br/>6034 SZ, Nederweert-eind</a></li>
+                       <a href='https://goo.gl/maps/pgG1u7PspoTZ7Nc19' target='_blank'><li className={styles.li}>Visdijk 9<br/>6034 SZ, Nederweert-eind</li></a> 
                         <li className={styles.li}><a href="tel:061234567">T: +31 6 12345678</a></li>
                     </ul>
                 </div>
@@ -53,9 +53,9 @@ export const Footer = () => {
                     <p className={styles.title}>Secties</p>
                     <ul className={styles.ul}>
                         <li className={styles.li} onClick={() => handleClick('section-1')}>Home</li>
-                        <li className={styles.li} onClick={() => handleClick('section-1')}>Diensten</li>
-                        <li className={styles.li} onClick={() => handleClick('section-1')}>Reviews</li>
-                        <li className={styles.li} onClick={() => handleClick('section-1')}>Contact</li>
+                        <li className={styles.li} onClick={() => handleClick('section-2')}>Diensten</li>
+                        <li className={styles.li} onClick={() => handleClick('section-3')}>Reviews</li>
+                        <li className={styles.li} onClick={() => handleClick('section-4')}>Contact</li>
                     </ul>
                 </div>
             </div>

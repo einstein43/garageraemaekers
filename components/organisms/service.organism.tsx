@@ -31,60 +31,48 @@ export default function Service() {
         </div>
       </div>
 
-      {/* Blocks */}
-      <div id={styles.blocksGrid}>
+ {/* Blocks */}
+ <div id={styles.blocksGrid}>
         <div id={styles.vak1} className={styles.service}>
           <img id={styles.plaatje} src="reparatie.svg" alt="reparaties" />
           <h1 className={styles.kopje}>Reparaties</h1>
           <p className={styles.kopje_text}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam.
+            Professionele reparaties voor uw voertuig. Onze experts zorgen ervoor dat uw auto weer in topconditie is, met aandacht voor detail en kwaliteit.
           </p>
         </div>
         <div id={styles.vak2} className={styles.service}>
           <img id={styles.plaatje}  src="banden.svg" alt="reparaties" />
           <h1 className={styles.kopje}>Banden</h1>
           <p className={styles.kopje_text}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam.
+            Hoogwaardige bandenservice voor optimale grip en veiligheid. Wij bieden professionele bandeninspectie, reparatie en vervanging.
           </p>
         </div>
         <div id={styles.vak3} className={styles.service}>
           <img id={styles.plaatje}  src="beurt.svg" alt="reparaties" />
           <h1 className={styles.kopje}>Kleine- en Grote Beurt</h1>
           <p className={styles.kopje_text}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam.
+            Regelmatig onderhoud voor een langere levensduur van uw auto. Onze beurten omvatten zorgvuldige inspectie en onderhoudsprocedures.
           </p>
         </div>
         <div id={styles.vak4} className={styles.service}>
           <img id={styles.plaatje}  src="apk.svg" alt="reparaties" />
           <h1 className={styles.kopje}>APK Facilitering</h1>
           <p className={styles.kopje_text}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam.
+            Probleemloze APK-keuringen om ervoor te zorgen dat uw voertuig voldoet aan alle wettelijke normen. Laat uw APK bij ons verzorgen.
           </p>
         </div>
         <div id={styles.vak5} className={styles.service}>
           <img id={styles.plaatje}  src="airco.svg" alt="reparaties" />
           <h1 className={styles.kopje}>Airco Service</h1>
           <p className={styles.kopje_text}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam.
+            Verfrissende airco-service om uw rijervaring te verbeteren. Wij bieden diagnose, reparatie en onderhoud van airconditioningsystemen.
           </p>
         </div>
         <div id={styles.vak6} className={styles.service}>
           <img id={styles.plaatje}  src="uitlees.svg" alt="reparaties" />
           <h1 className={styles.kopje}>Uitlees Service</h1>
           <p className={styles.kopje_text}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam.
+            Geavanceerde uitleesservice om snel en nauwkeurig problemen te identificeren. Onze experts gebruiken de nieuwste technologie voor effectieve oplossingen.
           </p>
         </div>
       </div>

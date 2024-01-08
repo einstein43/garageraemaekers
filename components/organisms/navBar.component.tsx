@@ -31,6 +31,16 @@ export const NavBar = () => {
         }
     }
 
+function handleRouteClick() {
+    window.open('https://goo.gl/maps/pgG1u7PspoTZ7Nc19', '_blank');
+}
+
+function handleCallClick() {
+    window.location.href = 'tel:061234567';
+}
+
+
+
     return (
         <div id={styles.container}>
 
@@ -47,9 +57,9 @@ export const NavBar = () => {
             {/* Links */}
             <ul id={styles.linkContainer}>
                 <li className={styles.link} onClick={() => handleClick('section-1')}>Home</li>
-                <li className={styles.link} onClick={() => handleClick('section-1')}>Diensten</li>
-                <li className={styles.link} onClick={() => handleClick('section-1')}>Reviews</li>
-                <li className={styles.link} onClick={() => handleClick('section-1')}>Contact</li>
+                <li className={styles.link} onClick={() => handleClick('section-2')}>Diensten</li>
+                <li className={styles.link} onClick={() => handleClick('section-3')}>Reviews</li>
+                <li className={styles.link} onClick={() => handleClick('section-4')}>Contact</li>
             </ul>
 
             {/* Buttons */}
@@ -61,6 +71,7 @@ export const NavBar = () => {
                         src: location,
                         alt: 'Route'
                     }}
+                    onClick={() => {handleRouteClick()}}
                 >Route</Button>
                 <Button 
                     size='medium' 
@@ -69,6 +80,7 @@ export const NavBar = () => {
                         src: phone,
                         alt: 'Telefoon'
                     }}
+                    onClick={() => {handleCallClick()}}
                 >Bellen</Button>
             </div>
 
