@@ -16,7 +16,7 @@ export default function Location() {
 
 
   function handleCallClick() {
-    window.location.href = 'tel:061234567';
+    window.location.href = 'tel:0495633102';
 }
 
 function handleRouteClick() {

@@ -23,11 +23,12 @@ export const NavBar = () => {
 
         // If element exists
         if (el) {
-
+            setMenuOpen(false)
             // Scroll to element
             el.scrollIntoView({
                 behavior: 'smooth'
             })
+            
         }
     }
 
@@ -36,7 +37,7 @@ function handleRouteClick() {
 }
 
 function handleCallClick() {
-    window.location.href = 'tel:061234567';
+    window.location.href = 'tel:0495633102';
 }
 
 
@@ -99,9 +100,9 @@ function handleCallClick() {
                 >
                     <ul id={styles.mobileLinkContainer}>
                         <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Home</li>
-                        <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Diensten</li>
-                        <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Reviews</li>
-                        <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Contact</li>
+                        <li className={styles.mobileLink} onClick={() => handleClick('section-2')}>Diensten</li>
+                        <li className={styles.mobileLink} onClick={() => handleClick('section-3')}>Reviews</li>
+                        <li className={styles.mobileLink} onClick={() => handleClick('section-4')}>Contact</li>
                     </ul>
                 </div>
             }

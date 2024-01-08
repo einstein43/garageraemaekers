@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import styles from "../../styles/organisms/services.module.css";
@@ -7,6 +9,10 @@ import reparaties from "../../public/reparatie.svg";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Service() {
+  function handleCallClick() {
+    window.location.href = 'tel:0495633102';
+}
+
   return (
     <div className={styles.wrapper}>
 
@@ -24,6 +30,7 @@ export default function Service() {
           <Button
             theme="primary"
             size="large"
+            onClick={() => handleCallClick()}
             icon={{ src: Phone, alt: "bellen" }}
           >
             Bellen

@@ -44,7 +44,7 @@ export const Footer = () => {
                     <p className={styles.title}>Garage Raemaekers</p>
                     <ul className={styles.ul}>
                        <a href='https://goo.gl/maps/pgG1u7PspoTZ7Nc19' target='_blank'><li className={styles.li}>Visdijk 9<br/>6034 SZ, Nederweert-eind</li></a> 
-                        <li className={styles.li}><a href="tel:061234567">T: +31 6 12345678</a></li>
+                        <li className={styles.li}><a href="tel:0495633102">T: +31 6 12345678</a></li>
                     </ul>
                 </div>
 
